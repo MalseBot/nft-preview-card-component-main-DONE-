@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.parent{
+    position: fixed;
+    width: 350px;
+    padding: 25px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    margin-top: -420px;
+    margin-left: -170px;
+    font-family: 'Outfit', sans-serif;
+}
+/* NFT design */
+.nfts{
+    display: flex;
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.view{
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    opacity: 0;
+    background-color: hsla(178, 100%, 50%, 0.397);
+    padding: 150px;
+    margin-top: -364px;
+}
+/* information */
+h1{
+    color: white;
+    margin-bottom: 15px;
+}
+p{
+    padding: 5px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 15px;
+}
+.price{
+    position: fixed;
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 15px;
+}
+.eth{
+    margin-right: 5px;
+}
+.clock{
+    margin-right: 5px;
+}
+.time{
+    position: relative;
+    display: flex;
+    right: 0;
+    color: hsl(215, 51%, 70%);
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+hr{
+    border-color: hsla(215, 52%, 70%, 0.137)
+}
+/* designer information */
+.pic{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.creator{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+.prof{
+    color: white;
+    margin-left: 5px;
+}
+/* HOVER Effects */
+h1:hover {
+color: hsl(178, 100%, 50%);
+cursor: pointer;
+}
+.prof:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.view:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
